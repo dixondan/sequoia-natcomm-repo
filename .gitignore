@@ -1,0 +1,13 @@
+# ignore all data
+data/
+
+# keep structure if needed
+!data/.gitkeep
+
+# ignore large intermediate outputs
+*.rds
+*.csv
+
+# ignore system files
+.DS_Store
+Rplots.pdf
