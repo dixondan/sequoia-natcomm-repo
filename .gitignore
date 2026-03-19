@@ -1,15 +1,30 @@
-# ignore all data
+# All data
 data/
 
-# keep structure if needed
-!data/.gitkeep
+# Results (figures and tables)
+results/
 
-# ignore large intermediate outputs
-*.rds
-*.csv
-*.tif
-
-# ignore system files
+# System files
 .DS_Store
 Rplots.pdf
-.Rproj.user
+.Rproj.user/
+
+# R
+*.Rhistory
+*.RData
+
+# Python
+__pycache__/
+*.pyc
+```
+
+And add empty `.gitkeep` files to preserve the directory structure so people know where to put things when they clone the repo:
+```
+data/.gitkeep
+data/raw/.gitkeep
+data/intermediate/.gitkeep
+data/intermediate/grid_samples/.gitkeep
+data/misc/.gitkeep
+results/.gitkeep
+results/figures/.gitkeep
+results/tables/.gitkeep
