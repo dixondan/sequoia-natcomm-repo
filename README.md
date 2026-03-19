@@ -23,8 +23,8 @@ Run scripts in this order from the repository root:
 1. Calibration  
 2. Mortality simulation  
 3. Hierarchical model (ensemble GLMM)  
-4. Scenario analysis  
-5. Plotting  
+4. Plotting
+5. Scenario analysis  
 
 ---
 
@@ -98,6 +98,15 @@ A Bayesian hierarchical logistic regression is used:
 ---
 
 ## Data Availability
+
+Data Availability
+Sequoia Tree Inventory (STI)
+The tree inventory data (data/raw/AllTreeRecentGrowthAssessments_20230802-KNP_CASTLE.shp) is provided in this repository with permission from Sequoia and Kings Canyon National Parks. This dataset remains the property of the National Park Service. Researchers wishing to use this data independently should contact:
+Sequoia and Kings Canyon National Parks
+47050 Generals Highway, Three Rivers, CA 93271
+https://www.nps.gov/seki/
+All other data in this repository is released under the MIT License (see LICENSE).
+
 
 Data are not included in this repository due to size constraints.
 

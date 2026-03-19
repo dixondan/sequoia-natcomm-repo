@@ -7,7 +7,9 @@ data/
 # ignore large intermediate outputs
 *.rds
 *.csv
+*.tif
 
 # ignore system files
 .DS_Store
 Rplots.pdf
+.Rproj.user
