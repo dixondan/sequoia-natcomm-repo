@@ -168,19 +168,39 @@ Scenarios include:
 
 # Input data
 
-The workflow begins from processed intermediate datasets.
+The repository includes workflows for processing raw spatial datasets as well as reproducing the final statistical analyses presented in the manuscript.
 
-Required files:
+Data required to reproduce the analyses are archived on Zenodo:
+
+https://doi.org/10.5281/zenodo.20142403
+
+After downloading and extracting the archive, place the `data/` directory in the repository root.
+
+The Zenodo archive includes:
+
+- Processed intermediate modeling datasets
+- Giant sequoia stem map derivatives (for full access to Sequoia Tree Inventory, contact SEKI national parks)
+- Prescribed fire history layers
+- Lidar-derived forest structure metrics
+- Tree-level mortality probability datasets
+- Scenario simulation inputs
+- Additional spatial and tabular datasets required for reproducing the analyses
+
+Key intermediate files used directly by the Bayesian workflow include:
 
 ```text
 data/intermediate/model-trees-Q12-sampled_75m-90m-120m-wgt-median.csv
-
 data/intermediate/stage2-bern_matrix_gamma_6000.rds
 ```
 
-These processed datasets are archived separately through Zenodo.
+The repository also contains Python preprocessing workflows used to:
+- Process airborne lidar data
+- Delineate giant sequoia crown polygons
+- Generate canopy structure metrics
+- Merge crown polygons with stem locations
+- Prepare tree-level modeling datasets
 
-Raw lidar, PlanetScope imagery, and proprietary spatial datasets are not distributed within this repository.
+Raw PlanetScope imagery is not redistributed because it is licensed through Planet Labs and the NASA Commercial SmallSat Data Acquisition Program.
 
 ---
 
