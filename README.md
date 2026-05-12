@@ -10,6 +10,7 @@ The repository reproduces the primary analyses, figures, and counterfactual pres
 
 ---
 
+
 # Study overview
 
 Extreme wildfires during 2020–2021 caused widespread mortality of giant sequoias across the southern Sierra Nevada. Historically, giant sequoia groves persisted under frequent low- to moderate-severity fire regimes that limited fuel accumulation and maintained heterogeneous forest structure. Following more than a century of fire exclusion, fuels accumulated across many groves, increasing vulnerability to high-severity wildfire.
@@ -20,6 +21,8 @@ This study evaluates:
 - The effects of prescribed burning on individual-tree survival
 - The influence of lidar-derived forest structure on mortality
 - Counterfactual wildfire outcomes under alternative prescribed-fire scenarios
+
+![Graphical abstract](figures/seki-graph-abs1.png)
 
 The workflow integrates:
 
