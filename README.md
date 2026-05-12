@@ -1,12 +1,12 @@
 # Sequoia Mortality Analysis
 
-This repository contains the statistical modeling workflow used to estimate giant sequoia (\textit{Sequoiadendron giganteum}) mortality following the 2020 Castle Fire and 2021 KNP Complex wildfire in Sequoia and Kings Canyon National Parks, California, USA.
+This repository contains the statistical modeling workflow used to estimate giant sequoia mortality following the 2020 Castle Fire and 2021 KNP Complex wildfire in Sequoia and Kings Canyon National Parks, California, USA.
 
 The analysis combines calibrated tree-level mortality probabilities derived from deep learning classification of PlanetScope imagery with Bayesian hierarchical logistic regression models to evaluate how prescribed fire and forest structure influenced giant sequoia survival during extreme wildfire events.
 
 The repository reproduces the primary analyses, figures, and counterfactual prescribed-fire scenarios presented in:
 
-> Dixon, D.J. et al. *Previous prescribed burns saved thousands of ancient sequoias during historically unprecedented wildfires.*
+> Dixon, D.J. et al. (2026) Previous prescribed burns saved thousands of ancient sequoias during historically unprecedented wildfires. *Nature Communications.* 
 
 ---
 
