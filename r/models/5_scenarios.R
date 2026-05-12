@@ -118,6 +118,13 @@ X_base <- model.matrix(
   data = data2
 )
 
+cat("Rows in data:", nrow(data2), "\n")
+cat("Rows in X_base:", nrow(X_base), "\n")
+
+if (nrow(X_base) != nrow(data2)) {
+  stop("model.matrix dropped rows. Check missing values in scenario predictors.")
+}
+
 X_scen <- list(
   base_1  = X_base,
   nopb_2  = { X <- X_base; X[, "pb_recent"] <- 0; X },
@@ -292,3 +299,4 @@ cat(sprintf(
   "Universal treatment could have prevented ~%0.0f deaths\n",
   all_row$base_1_med - all_row$allpb_3_med
 ))
+
