@@ -302,7 +302,7 @@ Some source spatial datasets are subject to access restrictions or agency owners
 
 The complete modeling and preprocessing workflow is available in this repository.
 
-The archived release associated with the manuscript is available through Zenodo.
+The archived release associated with the manuscript is available through Open Science Framework and Zenodo.
 
 ---
 
