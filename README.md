@@ -170,9 +170,9 @@ Scenarios include:
 
 The repository includes workflows for processing raw spatial datasets as well as reproducing the final statistical analyses presented in the manuscript.
 
-Data required to reproduce the analyses are archived on Zenodo:
+Data required to reproduce the analyses are archived on Open Science Framework:
 
-https://doi.org/10.5281/zenodo.20142403
+https://doi.org/10.17605/OSF.IO/83S2U
 
 After downloading and extracting the archive, place the `data/` directory in the repository root.
 
